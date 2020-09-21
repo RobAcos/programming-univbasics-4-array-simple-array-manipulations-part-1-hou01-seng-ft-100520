@@ -8,12 +8,17 @@ def using_unshift(array, string)
   p bouroughs_in_nyc
 end
 
+<<<<<<< HEAD
 def using_pop (array)
+=======
+def using_pop (array, string)
+>>>>>>> 441cf17a43c1e5ce01e3841dfb26c31065757d49
   array.pop
   continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
   deleted_string = continents.pop
   deleted_string.to_s 
 end
+<<<<<<< HEAD
 
 def pop_with_args (array)
   array.pop(2)
@@ -34,3 +39,5 @@ def shift_with_args (array)
 end
 
   
+=======
+>>>>>>> 441cf17a43c1e5ce01e3841dfb26c31065757d49
